@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:alpha="0.8"
+    android:background="@drawable/floating_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_year"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:fontFamily="@font/digital7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_date"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:fontFamily="@font/digital7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_hrs"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:fontFamily="@font/digital7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_sec"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="14dp"
+        android:fontFamily="@font/digital7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_battery"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/digital7"
+        android:textSize="10dp"
+        android:lineHeight="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
